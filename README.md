@@ -24,7 +24,7 @@ Compile o código do cliente usando o seguinte comando no terminal: javac Client
 Execute os Clientes:
 Execute os clientes em máquinas diferentes ou em uma única máquina. Use o seguinte comando para executar o cliente, substituindo <endereço_do_servidor> pelo endereço IP ou nome do host da máquina onde o servidor está executando e <porta> pela porta 12345: java ClienteJokempo <endereço_do_servidor> 12345
 
-##Nota Importante
+###Nota Importante
 
 - Certifique-se de que todos os jogadores e o servidor estão executando na mesma rede ou que as configurações de firewall e roteamento permitam a comunicação entre os clientes e o servidor.
 - Verifique se a porta 12345 está aberta e disponível para uso no servidor e nos clientes.
