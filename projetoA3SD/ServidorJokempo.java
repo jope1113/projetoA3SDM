@@ -163,8 +163,8 @@ public class ServidorJokempo {
                     }
                 }
 
-                out.println("Fim do jogo. Potuação Jogador 1 -> Vitórias: " + vitoriasJogUm + ", Derrotas: " + derrotasJogUm + ", Empates: " + empates + "Erros de Digitação: " +erros);
-                adversario.out.println("Fim do jogo. Potuação Jogador 2 -> Vitórias: " + vitoriasJogDois + ", Derrotas: " + derrotasJogDois + ", Empates: " + empates + "Erros de Digitação: " +erros);
+                out.println("Fim do jogo. Potuação Jogador 1 -> Vitórias: " + vitoriasJogUm + ", Derrotas: " + derrotasJogUm + ", Empates: " + empates + ", Erros de Digitação: " + erros);
+                adversario.out.println("Fim do jogo. Potuação Jogador 2 -> Vitórias: " + vitoriasJogDois + ", Derrotas: " + derrotasJogDois + ", Empates: " + empates + ", Erros de Digitação: " + erros);
             }
             synchronized (jogadores) {
                 jogadores.remove(nome);
